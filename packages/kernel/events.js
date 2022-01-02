@@ -1,5 +1,4 @@
 "use strict"; 
-
 // Проверка, находится ли персонаж внутри колшейпа.
 module.exports = { 
     "playerEnterColshape": (player, colshape) => {

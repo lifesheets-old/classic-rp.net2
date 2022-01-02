@@ -24,8 +24,11 @@
 		"dbuser": "lifesheets",
 		"dbpass": "password"
 	},
+	"build": {
+		"version": 1.0
+	},
 	"modules": {
-		"server": [],
-		"client": []
+		"ignoreServer": ["example"],
+		"ignoreClient": ["example"]
 	}
 }	
