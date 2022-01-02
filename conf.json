@@ -1,0 +1,31 @@
+{
+	"maxplayers" : 100,
+	"name" : "💕 Classic Role Play [VOICE][ROLEPLAY]", 
+	"url": "classic-rp.net",
+	"language": "ru",
+	"gamemode": "roleplay",
+	"streamdistance": 300,
+	"sync-rate": 20,
+	"announce" : false,
+	"voice-chat": true,
+	"voice-chat-sample-rate": 48000,
+	"http-threads": 25,
+	"fqdn": "srv1.classic-rp.net",
+	"bind" : "0.0.0.0",
+	"port" : 22000,
+	"disable-client-packages-ram-cache":true,
+	"disallow-multiple-connections-per-ip":true,
+	"api-threading-debugging": false,
+	"allow-cef-debugging": false,
+	"mysql": {
+		"dbhost": "localhost",
+		"dbport": 3306,
+		"dbname": "classic-rp",
+		"dbuser": "lifesheets",
+		"dbpass": "password"
+	},
+	"modules": {
+		"server": [],
+		"client": []
+	}
+}	
